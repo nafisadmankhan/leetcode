@@ -1,1 +1,3 @@
-students.loc[students['student_id'] == 101, ['name', 'age']]
+def createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:
+    employees['bonus'] = employees['salary' ] * 2
+    return employees
