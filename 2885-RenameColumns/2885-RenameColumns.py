@@ -1,1 +1,1 @@
-DataFrame.rename(mapper=None, index=None, columns=None, axis=None, copy=True, inplace=False, level=None, errors='raise')
+DataFrame.astype(dtype, copy=True, errors='raise')
