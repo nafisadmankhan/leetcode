@@ -1,0 +1,1 @@
+products['quantity'].fillna(0, inplace=True)
