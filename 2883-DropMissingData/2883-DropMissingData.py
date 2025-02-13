@@ -1,1 +1,4 @@
-DataFrame.dropna(axis=0, how='any', thresh=None, subset=None, inplace=False)
+import pandas as pd
+
+def dropMissingData(students: pd.DataFrame) -> pd.DataFrame:
+    return students.dropna(subset=['name'])
